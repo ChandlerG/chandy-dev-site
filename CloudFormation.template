@@ -1,0 +1,95 @@
+AWSTemplateFormatVersion: 2010-09-09
+Metadata:
+  'AWS::CloudFormation::Designer':
+    386ba79d-a01b-4662-8799-092e662e85a7:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 170
+        'y': 80
+      z: 0
+      embeds: []
+    80f49ce5-8460-46b5-8b80-d26a945f86c4:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 260
+        'y': 80
+      z: 0
+      embeds: []
+    ac737503-1620-4024-9d16-b5f4d6da69f0:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 90
+        'y': 80
+      z: 0
+      embeds: []
+    22a7ab19-c4af-41a7-9859-20e3b2253cca:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 10
+        'y': 80
+      z: 0
+      embeds: []
+    9f6d6f52-b91c-4357-9920-3dbd0351e059:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 350
+        'y': 80
+      z: 0
+      embeds: []
+    8de3676e-9ce8-4bf5-91ca-b8b0d3daca17:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 340
+        'y': 170
+      z: 0
+      embeds: []
+Resources:
+  CPP2VBXD:
+    Type: 'AWS::CodePipeline::Pipeline'
+    Properties: {}
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: ac737503-1620-4024-9d16-b5f4d6da69f0
+  S3B1CZNH:
+    Type: 'AWS::S3::Bucket'
+    Properties: {}
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 9f6d6f52-b91c-4357-9920-3dbd0351e059
+  S3BPTXKP:
+    Type: 'AWS::S3::BucketPolicy'
+    Properties: {}
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 8de3676e-9ce8-4bf5-91ca-b8b0d3daca17
+  CodeBuild:
+    Type: 'AWS::CodeBuild::Project'
+    Properties: {}
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 386ba79d-a01b-4662-8799-092e662e85a7
+  WebHook:
+    Type: 'AWS::CodePipeline::Webhook'
+    Properties: {}
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 22a7ab19-c4af-41a7-9859-20e3b2253cca
+  CodeDeploy:
+    Type: 'AWS::CodeDeploy::Application'
+    Properties: {}
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 80f49ce5-8460-46b5-8b80-d26a945f86c4
+
