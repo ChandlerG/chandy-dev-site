@@ -56,19 +56,19 @@ Metadata:
       z: 0
       embeds: []
 Resources:
-  CPP2VBXD:
+  CodePipeline:
     Type: 'AWS::CodePipeline::Pipeline'
     Properties: {}
     Metadata:
       'AWS::CloudFormation::Designer':
         id: ac737503-1620-4024-9d16-b5f4d6da69f0
-  S3B1CZNH:
+  Bukkit:
     Type: 'AWS::S3::Bucket'
     Properties: {}
     Metadata:
       'AWS::CloudFormation::Designer':
         id: 9f6d6f52-b91c-4357-9920-3dbd0351e059
-  S3BPTXKP:
+  BukkitPolicy:
     Type: 'AWS::S3::BucketPolicy'
     Properties: {}
     Metadata:
