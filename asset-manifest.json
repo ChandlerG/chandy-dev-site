@@ -1,14 +1,14 @@
 {
-  "main.css": "/chandy-dev-site/static/css/main.39a9fd32.chunk.css",
-  "main.js": "/chandy-dev-site/static/js/main.bf0c0f84.chunk.js",
-  "main.js.map": "/chandy-dev-site/static/js/main.bf0c0f84.chunk.js.map",
-  "runtime~main.js": "/chandy-dev-site/static/js/runtime~main.5c145737.js",
-  "runtime~main.js.map": "/chandy-dev-site/static/js/runtime~main.5c145737.js.map",
-  "static/js/2.6efc73d3.chunk.js": "/chandy-dev-site/static/js/2.6efc73d3.chunk.js",
-  "static/js/2.6efc73d3.chunk.js.map": "/chandy-dev-site/static/js/2.6efc73d3.chunk.js.map",
-  "index.html": "/chandy-dev-site/index.html",
-  "precache-manifest.d728b424f30752fe7c5642efaa7a5b9f.js": "/chandy-dev-site/precache-manifest.d728b424f30752fe7c5642efaa7a5b9f.js",
-  "service-worker.js": "/chandy-dev-site/service-worker.js",
-  "static/css/main.39a9fd32.chunk.css.map": "/chandy-dev-site/static/css/main.39a9fd32.chunk.css.map",
-  "static/media/logo.svg": "/chandy-dev-site/static/media/logo.5d5d9eef.svg"
+  "main.css": "/static/css/main.39a9fd32.chunk.css",
+  "main.js": "/static/js/main.ac7a967a.chunk.js",
+  "main.js.map": "/static/js/main.ac7a967a.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+  "static/js/2.6efc73d3.chunk.js": "/static/js/2.6efc73d3.chunk.js",
+  "static/js/2.6efc73d3.chunk.js.map": "/static/js/2.6efc73d3.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.7d14ba6ff5e3b1107bded87e6fa8a4bd.js": "/precache-manifest.7d14ba6ff5e3b1107bded87e6fa8a4bd.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.39a9fd32.chunk.css.map": "/static/css/main.39a9fd32.chunk.css.map",
+  "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
 }
