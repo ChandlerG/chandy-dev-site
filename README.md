@@ -3,10 +3,14 @@ These code examples are not complete, but meant to convey as much syntax as poss
 
 Currently at https://chandy.dev :)
 
-Languages:
+# Languages:
+
 Go - like half done
+
 JS - todo
+
 Java/Spring - todo
+
 Kotlin/Spring - todo
 
 
