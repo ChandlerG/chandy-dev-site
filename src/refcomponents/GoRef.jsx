@@ -24,6 +24,7 @@ func privateArraysFunc() {
     "Dagwood",
     "Sully"
     }
+    arr := make([]int, length, capacity)
 }
 func privateMapsFunc(s string) map[string]int{
     m := make(map[string]int)
@@ -31,7 +32,6 @@ func privateMapsFunc(s string) map[string]int{
     for index, elem := range sArr{
         m[s] = m[s]+1
     }
-    return m
 }
 
            `} </pre>
