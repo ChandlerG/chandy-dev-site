@@ -1,1 +1,3 @@
-I'm just tryna get a site running in s3 using https yo ignore this
+Some react stuff on github pages uses gh-pages.
+
+Currently at  https://chandlerg.github.io/chandy-dev-site/
