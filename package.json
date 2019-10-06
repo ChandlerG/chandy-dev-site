@@ -4,8 +4,10 @@
   "private": true,
   "homepage": "https://chandy.dev",
   "dependencies": {
+    "@material-ui/core": "^4.5.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "2.1.8"
   },
   "scripts": {
