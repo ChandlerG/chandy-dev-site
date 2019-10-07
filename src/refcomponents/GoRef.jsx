@@ -6,34 +6,34 @@ export const GoRef = () => {
 
         <div className='code'>
             <pre>{`
-import (
- "some imports"
-)
+package chandy
+
+import "strings"
 
 type Cat struct {
-    Name, Color string
+	Name, Color string
 }
 
 func PublicCatFunc() Cat {
-    dagwood = Cat{"Dagwood", "Tabby I Guess"}
-    sully = Cat{Name: "Sully", Color:"Tabby I Guess"}
+	dagwood = Cat{"Dagwood", "Tabby I Guess"}
+	sully = Cat{Name: "Sully", Color: "Tabby I Guess"}
 }
 
 func privateArraysFunc() {
-    catNames := [2]string{
-    "Dagwood",
-    "Sully"
-    }
-    arr := make([]int, length, capacity)
-}
-func privateMapsFunc(s string) map[string]int{
-    m := make(map[string]int)
-    sArr := strings.Split(s, " ")
-    for index, elem := range sArr{
-        m[s] = m[s]+1
-    }
+	catNames := [2]string{
+		"Dagwood",
+		"Sully",
+	}
+	arr := make([]int, length, capacity)
 }
 
+func privateMapsFunc(s string) map[string]int {
+	m := make(map[string]int)
+	sArr := strings.Split(s, " ")
+	for index, elem := range sArr {
+		m[s] = m[s] + 1
+	}
+}
            `} </pre>
         </div>
     )
