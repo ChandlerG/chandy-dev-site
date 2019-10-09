@@ -13,4 +13,10 @@ Java/Spring - todo
 
 Kotlin/Spring - todo
 
+# Development
+
+To install dependencies and run, issue these commands:
+
+    npm install
+    npm start
 
