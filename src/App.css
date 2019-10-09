@@ -1,3 +1,14 @@
+body {
+  margin: 0 auto;
+  padding: 1em;
+  font-size:18px;
+}
+
+a {
+  text-decoration: none;
+  color: #2874A6;
+}
+
 .App {
   text-align: center;
 }
@@ -29,5 +40,15 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #303333;
+    color: #f2f2f2;
+  }
+  .App-link {
+    color: #a4d0ed;
   }
 }
